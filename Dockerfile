@@ -9,6 +9,6 @@ RUN pip install flask
 
 ADD hello.py /tmp/hello.py
 
-EXPOSE 5000
+EXPOSE 5001
 
 CMD ["python","/tmp/hello.py"]
